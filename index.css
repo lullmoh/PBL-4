@@ -15,7 +15,9 @@ body {
     width: 2000px; 
     font-size: large;
     text-align: center;
+    
   }
+  
   .container {
     max-width: 900px;
     margin: auto;
@@ -78,4 +80,19 @@ body {
 
 .nav-list li:last-child {
     margin-right: 0;
+}
+
+details {
+  margin-top: 15px;
+  background-color: #ecd6e2;
+  padding: 15px;
+  border-radius: 8px;
+  color: #571c3f;
+}
+
+summary {
+  font-size: 1.3em;
+  font-weight: bold;
+  cursor: pointer;
+  color: #571c3f
 }
