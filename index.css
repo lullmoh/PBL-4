@@ -48,7 +48,7 @@ body {
 }
 
 a:visited {
-  color: inherit; /* makes sure the color doesn't change. you can also set it to the same color as a */
+  color: #571c3f;
 }
 
 .container {
