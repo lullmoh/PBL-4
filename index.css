@@ -12,6 +12,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
+  color:#571c3f;
 
 }
 .jumbotron {
@@ -43,12 +44,11 @@ body {
 
 
 .nav-links a {
-  color: #571c3f;
   margin-left: 1rem;
   text-decoration: none;
 }
 
-a:visited {
+a, a:visited {
   color: #571c3f;
 }
 
@@ -78,6 +78,7 @@ footer a, .nav-brand {
   grid-template-columns: repeat(2, 1fr); /* this line creates the four-squares layout */
   gap: 2rem;
   margin-top: 2rem;
+  color:#571c3f;
 }
 
 .grid-layout > div {
@@ -90,4 +91,10 @@ footer a, .nav-brand {
 
 .grid-layout > div:hover {
   transform: translateY(-5px); /* this line creates the animation */
+}
+
+img, video {
+  border-radius: 15px;
+  border: 3px solid #571c3f;
+  margin-top: 15px;
 }
